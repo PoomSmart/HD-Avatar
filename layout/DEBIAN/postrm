@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Removing Animoji/Memoji stickers caches..."
+rm -f /var/mobile/Library/Avatar/Stickers/*.png
+
+echo "Restarting AnimojiStickersExtension process..."
+killall -9 AnimojiStickersExtension || true
