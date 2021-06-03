@@ -1,7 +1,7 @@
 Package: com.ps.hdavatar
 Name: HD Avatar
 Depends: mobilesubstrate, firmware (>= 11.0)
-Version: 0.0.1
+Version: 1.0.0
 Architecture: iphoneos-arm
 Description: Double the size of Animoji/Memoji stickers.
 Maintainer: PoomSmart

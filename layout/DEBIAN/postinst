@@ -1,7 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Removing Animoji/Memoji stickers caches..."
 rm -f /var/mobile/Library/Avatar/Stickers/*.png
+rm -f /var/tmp/com.apple.messages/*.png
 
-echo "Restarting AnimojiStickersExtension process..."
+echo "Restarting processes..."
 killall -9 AnimojiStickersExtension || true
+killall -9 "Developer Stickers" || true

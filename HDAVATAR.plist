@@ -1,1 +1,1 @@
-{ Filter = { Executables = ( "AnimojiStickersExtension" ); }; }
+{ Filter = { Executables = ( "AnimojiStickersExtension", "Developer Stickers" ); }; }
